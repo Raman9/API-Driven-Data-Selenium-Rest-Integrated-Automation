@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-14T23:24:08 EST" name="Default suite" finished-at="2025-12-14T23:24:18 EST" duration-ms="9194">
+  <suite started-at="2025-12-16T22:40:41 EST" name="Mulitple Browser Suite" finished-at="2025-12-16T22:41:07 EST" duration-ms="26592">
     <groups>
     </groups>
-    <test started-at="2025-12-14T23:24:08 EST" name="Default test" finished-at="2025-12-14T23:24:18 EST" duration-ms="9194">
-      <class name="tests.searchSyncTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.searchSyncTest@2e385cce]" started-at="2025-12-14T23:24:08 EST" name="setup" finished-at="2025-12-14T23:24:12 EST" duration-ms="3330" status="PASS">
+    <test started-at="2025-12-16T22:40:41 EST" name="Edge Test" finished-at="2025-12-16T22:41:07 EST" duration-ms="26332">
+      <class name="tests.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.loginTest@f0c8a99]" started-at="2025-12-16T22:40:41 EST" name="setup" finished-at="2025-12-16T22:40:45 EST" duration-ms="4439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchConsistency()[pri:0, instance:tests.searchSyncTest@2e385cce]" started-at="2025-12-14T23:24:12 EST" name="testSearchConsistency" finished-at="2025-12-14T23:24:17 EST" duration-ms="5446" status="PASS">
+        <test-method signature="testLoginWithApiCreatedUser()[pri:0, instance:tests.loginTest@f0c8a99]" started-at="2025-12-16T22:40:45 EST" name="testLoginWithApiCreatedUser" finished-at="2025-12-16T22:40:57 EST" duration-ms="12178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithApiCreatedUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.loginTest@f0c8a99]" started-at="2025-12-16T22:40:57 EST" name="teardown" finished-at="2025-12-16T22:40:59 EST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.loginTest -->
+      <class name="tests.searchSyncTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.searchSyncTest@17f9d882]" started-at="2025-12-16T22:40:59 EST" name="setup" finished-at="2025-12-16T22:41:04 EST" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchConsistency()[pri:0, instance:tests.searchSyncTest@17f9d882]" started-at="2025-12-16T22:41:04 EST" name="testSearchConsistency" finished-at="2025-12-16T22:41:06 EST" duration-ms="2556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchConsistency -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.searchSyncTest@2e385cce]" started-at="2025-12-14T23:24:17 EST" name="teardown" finished-at="2025-12-14T23:24:18 EST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.searchSyncTest@17f9d882]" started-at="2025-12-16T22:41:06 EST" name="teardown" finished-at="2025-12-16T22:41:07 EST" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.searchSyncTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Edge Test -->
+    <test started-at="2025-12-16T22:40:41 EST" name="Chrome Test" finished-at="2025-12-16T22:41:07 EST" duration-ms="26592">
+      <class name="tests.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.loginTest@8462f31]" started-at="2025-12-16T22:40:41 EST" name="setup" finished-at="2025-12-16T22:40:45 EST" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithApiCreatedUser()[pri:0, instance:tests.loginTest@8462f31]" started-at="2025-12-16T22:40:45 EST" name="testLoginWithApiCreatedUser" finished-at="2025-12-16T22:40:56 EST" duration-ms="10401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithApiCreatedUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.loginTest@8462f31]" started-at="2025-12-16T22:40:56 EST" name="teardown" finished-at="2025-12-16T22:40:56 EST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.loginTest -->
+      <class name="tests.searchSyncTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.searchSyncTest@24569dba]" started-at="2025-12-16T22:40:56 EST" name="setup" finished-at="2025-12-16T22:41:00 EST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchConsistency()[pri:0, instance:tests.searchSyncTest@24569dba]" started-at="2025-12-16T22:41:00 EST" name="testSearchConsistency" finished-at="2025-12-16T22:41:07 EST" duration-ms="7326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchConsistency -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.searchSyncTest@24569dba]" started-at="2025-12-16T22:41:07 EST" name="teardown" finished-at="2025-12-16T22:41:07 EST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.searchSyncTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Mulitple Browser Suite -->
 </testng-results>
